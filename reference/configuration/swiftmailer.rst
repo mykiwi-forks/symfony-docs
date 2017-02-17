@@ -23,6 +23,7 @@ Configuration
 * `password`_
 * `host`_
 * `port`_
+* `local_domain`_
 * `encryption`_
 * `auth_mode`_
 * `spool`_
@@ -78,6 +79,13 @@ port
 
 The port when using ``smtp`` as the transport. This defaults to 465 if encryption
 is ``ssl`` and 25 otherwise.
+
+local_domain
+~~~~~~~~~~~~
+
+**type**: ``string``
+
+The domain name to use in HELO command.
 
 encryption
 ~~~~~~~~~~
