@@ -23,6 +23,8 @@ Configuration
 * `password`_
 * `host`_
 * `port`_
+* `timeout`_
+* `source_ip`_
 * `encryption`_
 * `auth_mode`_
 * `spool`_
@@ -78,6 +80,21 @@ port
 
 The port when using ``smtp`` as the transport. This defaults to 465 if encryption
 is ``ssl`` and 25 otherwise.
+
+timeout
+~~~~~~~
+
+**type**: ``string``
+
+The timeout when using ``smtp`` as the transport
+
+source_ip
+~~~~~~~~~
+
+**type**: ``string``
+
+The source IP when using ``smtp`` as the transport
+
 
 encryption
 ~~~~~~~~~~
